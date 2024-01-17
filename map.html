@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <title>.map</title>
+    <title>practicing ->.map</title>
 </head>
+
 <body>
-    
+
 
 
     <script>
-        const words = ["hi", "java","script","is","cool"]
-       const mapres = words.forEach(element ,index => consol.log(index))
+        const words = ["hi", "java", "script", "is", "cool"]
+        const mapres = words.forEach(word => console.log(word.length))
+        const celsiusTemps = [0, 30, 100];
+        const fahrenheit = celsiusTemps.map(num => num * 9 / 5 + 32)
+        const names = ["Alice", "Bob", "Charlie"];
+        const helloname = names.forEach(name => console.log("Hello " + name));
+        const numbers = [2, -4, 5, -8];
+        const negPos = numbers.forEach(num  => num * (-1))
+        
+        
+        
+        
     </script>
 </body>
+
 </html>
